@@ -1,0 +1,26 @@
+
+@import '../../styles/colours.scss';
+
+.wallet-progress {
+    position: absolute;
+    bottom: -4px;
+    width: 100%;
+
+    path {
+        stroke-width: 5px;
+        stroke: $colour-green;
+        fill: $colour-white;
+        animation: dash 1s linear; // for demo purposes
+      }
+    
+    @keyframes dash {
+    from {
+        stroke-dashoffset: 385;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+    }
+}
+
+

@@ -1,0 +1,13 @@
+@import '../../styles/colours.scss';
+
+.special-button {
+    width: 284px;
+    height: 48px;
+    background-color: $colour-red;
+    color: $colour-white;
+    border-radius: 24px;
+    border: none;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: ProbaPro-Bold;
+}

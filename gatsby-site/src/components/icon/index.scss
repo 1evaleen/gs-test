@@ -1,0 +1,28 @@
+@import '../common/config.scss';
+
+$small: 12px;
+$large: 42px;
+
+.icon {
+    display: inline-block;
+    width: $small;
+    height: $small;
+    background-color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &--large {
+        width: $large;
+        height: $large;
+    }
+
+    &--wallet {
+        background-image: url('#{$iconPath}/wallet.svg');
+    }
+    
+    &--right-arrow {
+        background-image: url('#{$iconPath}/right-arrow.svg');
+        margin-left: 4px;
+        margin-bottom: -1px;
+    }
+}  

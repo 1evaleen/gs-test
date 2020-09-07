@@ -1,0 +1,44 @@
+@import '../../styles/colours.scss';
+
+.wallet {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 36px;
+
+    &__body {
+        display: inline-block;
+        text-align: center;
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        background: linear-gradient(312.31deg, $colour-dark-red 9.42%, $colour-red 50%);
+        box-shadow: 0px 0px 48px $colour-light-grey;
+
+        .icon {
+            margin-top: 29px;
+        }
+    }
+
+    &__value {
+        font-family: ProbaPro-Bold;
+        font-size: 40px;
+        color: $colour-white;
+        margin-top: -3px;
+    }
+    
+    &__decimals {
+        font-family: ProbaPro-Regular;
+        font-size: 20px;
+        color: $colour-white;
+        margin-top: -5px;
+    }
+  
+    &__target {
+        font-family: ProbaPro-Bold;
+        color: $colour-white;
+        font-size: 18px;
+        margin-top: -6px;
+    }
+  }
+  

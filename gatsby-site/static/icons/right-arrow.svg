@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon/16/arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Test" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-633.000000, -389.000000)" fill="#FFFFFF">
+            <g id="cta/primary" transform="translate(439.000000, 371.000000)">
+                <g id="Group" transform="translate(81.119822, 10.000000)">
+                    <g id="icon/16/arrow" transform="translate(113.178994, 8.000000)">
+                        <path d="M0.446911482,0.248282901 C0.708503739,-0.0359163445 1.14187607,-0.0790445027 1.45466217,0.133944192 L1.53017728,0.19253584 L7.49608113,5.44253584 C7.81045687,5.71918674 7.83291229,6.18651965 7.56344736,6.49041084 L7.49608113,6.55747706 L1.53017728,11.8074771 C1.21529771,12.0845713 0.730303094,12.0596125 0.446911482,11.75173 C0.185319224,11.4675308 0.186946735,11.0416024 0.436406313,10.7598145 L0.503925471,10.6925358 L5.83562668,5.99925645 L0.503925471,1.30747706 C0.213267407,1.05169774 0.169159102,0.627955528 0.386988258,0.322119969 L0.446911482,0.248282901 Z" id="arrow-right"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,132 @@
+@import './config.scss';
+
+$ipad: 768px;
+$ipad-pro: 1024px;
+$screen: 1110px;
+$screen-l: 1554px;
+$screen-xl: 1754px;
+$screen-xxl: 2100px;
+$screen-xxxl: 2200px;
+
+.banner {
+    position: relative;
+    background-color: $colour-med-grey;
+    height: 735px;
+    overflow: hidden;
+
+    &__content {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 71px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    &__welcome {
+        font-family: ProbaPro-Regular;
+        text-transform: uppercase;
+        color: $colour-black;
+        font-size: 14px;
+        margin-bottom: 6px;
+        line-height: 1.4em;
+    }
+
+    &__title {
+        font-family: ProbaPro-Bold;
+        color: $colour-black;
+        font-size: 51px;
+        line-height: 1.125em;
+        margin-bottom: 25px;
+    }
+
+    &__copy {
+        font-family: ProbaPro-Regular;
+        font-size: 14px;
+        margin-bottom: 32px;
+        line-height: 1.44em;
+        color: $colour-black;
+    }
+}
+
+br {
+    display: none;
+}
+
+// ipad ------------------------------------------------------
+@media only screen and (min-width: $ipad) {
+    .banner {
+        height: 629px;
+
+        &__content {
+            padding-right: 216px;
+        }
+    }    
+    br {
+        display: inline;
+    }
+}
+
+// ipad pro ----------------------------------------------
+@media only screen and (min-width: $ipad-pro) {
+    .banner {
+        background-image: url('#{$imgPath}/header-image.png');
+        background-repeat: no-repeat;
+        background-position: right -247px top 0px;
+        height: 629px;
+        background-size: contain;
+
+        &__content {
+            padding-right: 478px;
+        }
+    }
+}
+
+@media only screen and (min-width: $screen) {
+    .banner {
+        background-position: right -280px top 0px;
+
+        &__content {
+            width: 650px;
+            padding-right: 400px;
+        }
+
+        &__welcome {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+    
+        &__title {
+            font-size: 64px;
+            margin-bottom: 32px;
+        }
+    
+        &__copy {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and (min-width: $screen-l) {
+    .banner {
+        background-position: right -180px top 0px;
+    }
+}
+
+@media only screen and (min-width: $screen-xl) {
+    .banner {
+        background-position: right -80px top 0px;
+    }
+}
+@media only screen and (min-width: $screen-xxl) {
+    .banner {
+        background-position: right 0px top 0px;
+    }
+}
+@media only screen and (min-width: $screen-xxxl) {
+    .banner {
+        background-position: right 80px top 0px;
+    }
+}
+  
+
